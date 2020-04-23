@@ -1,0 +1,179 @@
+html {
+  font-family: system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+header.h{
+background-color: #90aebb;
+font-weight: lighter;
+ position: fixed;
+z-index: 10;
+width: 70%; 
+height: auto;
+}
+
+.koha{
+  color: gainsboro;
+  text-align: right;
+  margin: 0;
+ 
+}
+
+
+.fotoballina{
+  border-radius: 30px;
+}
+.Keshillat {
+  display: flex;
+}
+
+.card-title{
+  background-color: #3b555e;
+  border-radius: 10px;
+}
+
+
+
+
+
+.advice {
+  padding-top: 40px;
+  background-color: rgb(56, 81, 90);
+  text-align: center;
+  color: #ff7f50;
+  justify-content: center;
+  width: 33.3%;
+  height: 250px;
+}
+
+.keshilla {
+  padding-top: 50px;
+}
+
+h5,h6{
+  color: #969292;
+  font-weight: 330 !important;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  /* background-image: url(photos/background.jpg); */
+  background-color: rgb(56, 81, 90);
+
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+  align-content: center !important;
+  justify-content: center;
+  /* opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;  */
+}
+.video1 {
+  padding-top: 10px;
+  max-width: 700px;
+  max-height: 620px;
+  border-radius: 15px;
+  cursor: pointer;
+  min-width: 100px;
+  min-height: 60px;
+}
+
+.tedhenat {
+  width: 15rem;
+  border-bottom: 3px solid black;
+  border-top: 3px solid grey;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.divikryesor {
+  padding: 0 15% 0 15%;
+}
+
+ul.nav a:hover {
+  color:  rgb(56, 81, 90) !important;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+
+  display: block;
+}
+
+a {
+  color: #5c5c5c;
+}
+
+header a {
+  color: white;
+}
+
+.Logo {
+  width: 50px;
+  height: 50px;
+}
+.logoks {
+  float: left;
+  height: 70px;
+  padding-left: 50px;
+}
+hr {
+  width: 50%;
+}
+
+h3 {
+  color: white;
+  display: inline;
+}
+
+
+.box {
+  border-top: 2px solid red;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.footer {
+  text-align: center;
+
+  background-color: rgb(24, 43, 43);
+  font-size: 1.5em;
+  color: #969292;
+  padding-top: 1.5em;
+}
+
+.col {
+  font-size: 0.7em;
+  color: coral;
+  text-align: center;
+  align-items: center;
+}
+
+.btnPlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
